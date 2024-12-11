@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Enhanced Shield Shape -->
+  <path d="M256 32L64 112V224C64 331.712 148.288 439.424 256 464C363.712 439.424 448 331.712 448 224V112L256 32Z" fill="hsl(142.1 70.6% 45.3%)" stroke="white" stroke-width="24" stroke-linejoin="round"/>
+  
+  <!-- Modern LG Monogram -->
+  <path d="M192 176V336H320" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M320 256C320 213.072 285.928 176 240 176" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Inner Shield Detail -->
+  <path d="M256 64L112 128V208C112 292.356 176.644 378.178 256 400C335.356 378.178 400 292.356 400 208V128L256 64Z" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round" stroke-opacity="0.3"/>
+  
+  <!-- Outer Glow -->
+  <path d="M256 32L64 112V224C64 331.712 148.288 439.424 256 464C363.712 439.424 448 331.712 448 224V112L256 32Z" fill="url(#glow)" fill-opacity="0.1"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="white" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
